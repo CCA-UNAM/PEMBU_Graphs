@@ -136,7 +136,7 @@ for station_ind, station in stationsinfo.iterrows():
         plt.setp(legend.get_title(),fontsize=12)
         plot_title = r'Estaci'+u'ó'+'n Meteorológica ' + station["short"] + '\n'r'Rosa de vientos '+u'ú'+'ltimos 7 días\n '+'\n' 
         plt.suptitle(plot_title,fontsize=14,x=0.5,y=0.94,color="midnightblue")
-        figwr.figimage(im, xo=25, yo=1770 , zorder=1, alpha=1)
+        figwr.figimage(im, xo=300, yo=1770 , zorder=1, alpha=1)
         newax2 = figwr.add_axes([0.17, 0.82, 0.5, 0.15], zorder=0) 
         newax2.text(0,0.1, 'latitud: '+ str(station["lat"])+'    longitud: '+str(station["lon"])+'    altitud: '+str(station["lat"]), fontsize=12)
         newax2.text(0,-0.2,time_plotRV + '    ' +'UTC-6', fontsize=12)

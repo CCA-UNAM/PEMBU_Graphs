@@ -54,7 +54,6 @@ for station_ind, station in stationsinfo.iterrows():
         min_rang=0.3
         bins_range = [min_rang]
         bins_range.extend(range(1,max_speed,1)) 
-        im = image.imread("logo.jpg")
 
         output_graphs_dir=output_dir+station_id
         if not os.path.exists(output_graphs_dir):
@@ -65,7 +64,7 @@ for station_ind, station in stationsinfo.iterrows():
         ax1.axis('tight')
         ax1.axis('off')
         ax2.axis('off')
-        fig.figimage(im, xo=25, yo=1770 , zorder=0, alpha=1)
+        fig.figimage(im, xo=300, yo=1770 , zorder=0, alpha=1)
         tablelastmin = ax1.table(cellText = np.array([labels, last_r]).transpose(), colLabels = None, cellColours=rows_color, bbox=[-0.25, 0.07, 1.5, 0.7], cellLoc='right', rowLoc='right', edges='closed')
         tablelastmin.scale(1,2.5)
         tablelastmin.auto_set_font_size(False)
