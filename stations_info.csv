@@ -1,0 +1,16 @@
+stations,name,short,lat,lon,alt
+cca,Instituto de Ciencias de la Atm�sfera y Cambio Clim�tico,ICAyCC,19.3261,99.1761,2288
+ccha,Colegio de Ciencias y Humanidades Azcapotzalco,CCH Azcapotzalco,19.4998,99.2041,2258
+cchn,Colegio de Ciencias y Humanidades Naucalpan,CCH Naucalpan,19.4739,99.2462,2347
+ccho,Colegio de Ciencias y Humanidades Oriente,CCH Oriente,19.3838,99.0598,2243
+cchs,Colegio de Ciencias y Humanidades Sur,CCH Sur,19.3004,99.2011,2368
+cchv,Colegio de Ciencias y Humanidades Vallejo,CCH Vallejo,19.4844,99.1413,2242
+enp1,Escuela Nacional Preparatoria 1,ENP 1,19.2714,99.122,2258
+enp2,Escuela Nacional Preparatoria 2,ENP 2,19.384,99.0999,2241
+enp3,Escuela Nacional Preparatoria 3,ENP 3,19.1818,99.0948,2250
+enp4,Escuela Nacional Preparatoria 4,ENP 4,19.4037,99.1949,2307
+enp5,Escuela Nacional Preparatoria 5,ENP 5,19.3073,99.1334,2252
+enp6,Escuela Nacional Preparatoria 6,ENP 6,19.3512,99.1558,2279
+enp7,Escuela Nacional Preparatoria 7,ENP 7,19.4197,99.1269,2247
+enp8,Escuela Nacional Preparatoria 8,ENP 8,19.3665,99.195,2249
+enp9,Escuela Nacional Preparatoria 9,ENP 9,19.4833,99.1281,2249
