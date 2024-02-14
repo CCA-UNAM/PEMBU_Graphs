@@ -78,7 +78,7 @@ for station_ind, station in stationsinfo.iterrows():
         ax3.plot(last_records['WSpeed_Avg'],color='goldenrod',label='Rapidez viento\n (m/s)')
         ax3.set_ylabel('Rapidez viento\n (m/s)',color='goldenrod',fontsize = 11)
 
-        ax4.plot(last_records['WDir_Avg'],'D', ms=4, linestyle='',color='green',label='Direccion viento (°)')
+        ax4.plot(last_records['WDir_Avg'],'D', ms=3, linestyle='',color='green',label='Direccion viento (°)')
         ax4.set_ylabel('Direccion viento\n (°)',color='green',fontsize = 11)
 
         ax5.plot(last_records['Rad_Avg'],color='crimson',label='Radiacion solar\n (W/m2)')
