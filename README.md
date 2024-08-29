@@ -24,6 +24,11 @@ Comandos para crear el enviroment a partir del archivo *env_windRoses.txt*
 ```bash
 conda create -n windRoses --file env_windRoses.txt
 ```
+o 
+```bash
+conda create -n windRoses matplotlib numpy pandas windrose python-dotenv requests
+```
+
 
 ## Ejecución 
 
