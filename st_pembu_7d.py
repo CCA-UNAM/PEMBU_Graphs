@@ -124,7 +124,7 @@ for station_ind, station in stationsinfo.iterrows():
         bins_range = [min_rang]
         bins_range.extend(range(1,max_speed,1)) 
         time_plotRV = last_time.now().strftime('%Y-%m-%d %H')+':00'
-        
+        last_records["WSpeed_Avg"]=last_records['WSpeed_Avg'].clip(lower=0.3)
         figwr=plt.figure()
         figwr.set_size_inches(7.56,6.71)
         rect=[0.1,0.1,0.6,0.6] 

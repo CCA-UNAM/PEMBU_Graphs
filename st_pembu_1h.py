@@ -54,6 +54,7 @@ for station_ind, station in stationsinfo.iterrows():
         min_rang=0.3
         bins_range = [min_rang]
         bins_range.extend(range(1,max_speed,1)) 
+        last_records["Wind_Speed"]=last_records['Wind_Speed'].clip(lower=0.3)
 
         output_graphs_dir=output_dir+station_id
         if not os.path.exists(output_graphs_dir):
